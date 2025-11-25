@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #3b82f6;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
