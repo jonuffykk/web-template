@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-zinc-950 p-6">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-blue-900/20 via-zinc-950/0 to-zinc-950/0" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,var(--tw-gradient-stops))] from-blue-900/20 via-zinc-950/0 to-zinc-950/0" />
 
       <div className="relative z-10 flex max-w-3xl flex-col items-center text-center">
         <div className="mb-6 inline-flex items-center rounded-full border border-zinc-800 bg-zinc-900/50 px-3 py-1 text-sm text-zinc-400 backdrop-blur-sm">
@@ -11,7 +11,7 @@ export default function Home() {
 
         <h1 className="mb-6 text-5xl font-bold tracking-tight text-white sm:text-7xl">
           Crie experiências <br />
-          <span className="bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">
             digitais incríveis.
           </span>
         </h1>
@@ -41,7 +41,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-zinc-800 to-transparent" />
+      <div className="absolute bottom-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-zinc-800 to-transparent" />
     </main>
   )
 }
